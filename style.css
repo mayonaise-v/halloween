@@ -1,0 +1,227 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Places the background gif behind all other material */
+html{
+    background: url(background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Establishes style rules, width, and margin for the largest container */
+.main-container{
+    width: 80%;
+    max-width: 1080px;
+    margin: 10px auto;
+}
+
+
+.white-bg{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  z-index: 10;
+}
+
+#how-to{
+
+
+  width: 600px;
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  font-size: 25px;
+
+}
+.blur-effect{
+  width: 600px;
+  -webkit-filter: blur(4px);
+  -moz-filter: blur(4px);
+  -ms-filter: blur(4px);
+  -o-filter: blur(4px);
+  filter: blur(4px);
+  position: absolute;
+  top: 10%;
+  left: 29.5%;
+  font-size: 25px;
+
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* References the id="the-lights" and establishes its size and style rules */
+#the-lights{
+	  background-color:#000;
+	  height:100%;
+	  width:100%;
+	  position:absolute;
+	  top:0;
+	  left:0;
+	  display:none;
+}
+
+
+#video-1{
+	width: 640px;
+	height: 360px;
+  position: absolute;
+  top: 20%;
+  left: 15%;
+}
+
+#video-2{
+	width: 640px;
+	height: 360px;
+  position: absolute;
+  top: 30%;
+  left: 27%;
+}
+
+.selfie{
+  background-image: url('selfie.gif');
+  width: 456px;
+  height: 257px;
+  position: absolute;
+  top: 35%;
+  left: 35%;
+}
+
+.selfie-gif{
+  width: 456px;
+  height: 257px;
+  position: absolute;
+  /* margin-top: 35%; */
+
+  top: 35%;
+  left: 35%;
+}
+
+/* Defines the size and position of the light-off container */
+.lights-off{
+  width: 300px;
+  position: absolute;
+  top: 80%;
+  left: 33%;
+  color: black;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+}
+
+/* Defines the size of the light-off icon */
+.lights-off img{
+  width: 11%;
+  height: auto;
+}
+
+.lights-off:hover {
+    transform: scale(1.5, 1.5); /** default is 1, scale it to 1.5 */
+    opacity: 1;
+}
+
+
+
+/* Defines the size and position of the light-on container */
+.lights-on{
+  width: 300px;
+  position: absolute;
+  top: 80%;
+  left: 33%;
+  color: black;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+}
+
+/* Defines the size of the light-on icon */
+.lights-on img{
+  width: 11%;
+  height: auto;
+}
+.lights-on:hover {
+    transform: scale(1.5, 1.5); /** default is 1, scale it to 1.5 */
+    opacity: 1;
+}
+
+.play-button{
+  width: 300px;
+  position: absolute;
+  top: 80%;
+  left: 49%;
+  color: black;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+}
+
+/* Defines the size of the light-on icon */
+.play-button img{
+  width: 11%;
+  height: auto;
+}
+.play-button:hover {
+    transform: scale(1.5, 1.5); /** default is 1, scale it to 1.5 */
+    opacity: 1;
+}
+
+.pause-button{
+  width: 300px;
+  position: absolute;
+  top: 80%;
+  left: 62%;
+  color: black;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+}
+
+/* Defines the size of the light-on icon */
+.pause-button img{
+  width: 11%;
+  height: auto;
+}
+.pause-button:hover {
+    transform: scale(1.5, 1.5); /** default is 1, scale it to 1.5 */
+    opacity: 1;
+}
+
+.home{
+  width: 300px;
+  position: absolute;
+  top: 80%;
+  left: 18%;
+  color: black;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+}
+
+/* Defines the size of the light-on icon */
+.home img{
+  width: 11%;
+  height: auto;
+}
+.home:hover {
+    transform: scale(1.5, 1.5); /** default is 1, scale it to 1.5 */
+    opacity: 1;
+}
+
+
+/* Defines the size of the iframe container */
+.full-movie{
+  width: 100%;
+}
+
+/* Defines the specific size and position of the iframe div */
+.full-movie iframe{
+  width: 640px;
+  position: absolute;
+  top: 22%;
+  left: 27%;
+}
